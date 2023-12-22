@@ -30,52 +30,70 @@
       }
 
       img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 100%;
+        display: block;
+            margin: auto;
+            border-radius: 50%;
+            max-width: 200px;
+            height: auto;
+            box-sizing: border-box;
       }
 
       h1 {
         color: #333;
+        font-size: xx-large;
+      }
+      h2 {
+        font-size: x-large;
+        color: #686666;
+      }
+      h3 {
+        font-size: large;
+        color: #2a418d;
       }
 
       p {
         line-height: 1.6;
         color: #555;
       }
+
+      div.text-center {
+        text-align: center;
+      }
+
     </style>
   </head>
 
   <body>
-    <header>
-      <h1>Brandon Nham</h1>
-      <p>Software Engineer</p>
-    </header>
-
+    <br>
     <section>
-      <img src="images/professionalProfilePic.JPG" alt="Brandon Nham" />
-      <h1>About Me</h1>
+        <div class="text-center">
+            <h1 style="margin-bottom: 0; padding-bottom: 0;">Brandon Nham</h1>
+            <h2 style="margin-top: 0;">Software Engineer</h2>
+        </div>
+      <img src="images/pfp.jpeg" alt="Brandon Nham"/>
+      <h3>About Me</h3>
       <p>
-        My current role is a Jr. Software Engineer at 3M Health Information
+        My current role is Jr. Software Engineer at 3M Health Information
         Systems (HIS). I mainly work in C#, creating internal tools in the .NET
         Framework. I enjoy problem solving and creating solutions that benefit
         not only the user, but also future collaborators.
-      </p>
-
-      <h1>Contact Information</h1>
-      <p>Email: brandon.nham@gmail.com</p>
-      <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/brandon-nham" target="_blank"
-          >LinkedIn</a
-        >
-      </p>
-      <p>
-        GitHub:
-        <a href="https://github.com/brandonnham target="_blank"
-          >GitHub</a
-        >
-      </p>
+      </p> 
+    </section>
+    <section>
+        <h3>Contact Information</h3>
+        <p>Email: brandon.nham@gmail.com</p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/brandon-nham" target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/brandonnham target="_blank"
+            >GitHub</a
+          >
+        </p>
     </section>
   </body>
 </html>
