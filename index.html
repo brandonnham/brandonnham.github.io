@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brandon Nham</title>
+    <link
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <style>
       body {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -31,11 +35,11 @@
 
       img {
         display: block;
-            margin: auto;
-            border-radius: 50%;
-            max-width: 200px;
-            height: auto;
-            box-sizing: border-box;
+        margin: auto;
+        border-radius: 50%;
+        max-width: 200px;
+        height: auto;
+        box-sizing: border-box;
       }
 
       h1 {
@@ -50,6 +54,10 @@
         font-size: large;
         color: #2a418d;
       }
+      h4 {
+        font-size: medium;
+        color: #000000;
+      }
 
       p {
         line-height: 1.6;
@@ -59,41 +67,120 @@
       div.text-center {
         text-align: center;
       }
-
     </style>
   </head>
 
   <body>
-    <br>
+    <br />
     <section>
-        <div class="text-center">
-            <h1 style="margin-bottom: 0; padding-bottom: 0;">Brandon Nham</h1>
-            <h2 style="margin-top: 0;">Software Engineer</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm d-flex align-items-center">
+            <div class="text-center">
+              <h1 style="margin-bottom: 0; padding-bottom: 0">Brandon Nham</h1>
+              <h2 style="margin-top: 0">Software Engineer</h2>
+            </div>
+          </div>
+          <div class="col-sm">
+            <img src="images/pfp.jpeg" alt="Brandon Nham" />
+          </div>
         </div>
-      <img src="images/pfp.jpeg" alt="Brandon Nham"/>
+      </div>
+
       <h3>About Me</h3>
       <p>
         My current role is Jr. Software Engineer at 3M Health Information
         Systems (HIS). I mainly work in C#, creating internal tools in the .NET
         Framework. I enjoy problem solving and creating solutions that benefit
         not only the user, but also future collaborators.
-      </p> 
+      </p>
     </section>
     <section>
-        <h3>Contact Information</h3>
-        <p>Email: brandon.nham@gmail.com</p>
-        <p>
-          LinkedIn:
-          <a href="https://www.linkedin.com/in/brandon-nham" target="_blank"
-            >LinkedIn</a
-          >
-        </p>
-        <p>
-          GitHub:
-          <a href="https://github.com/brandonnham target="_blank"
-            >GitHub</a
-          >
-        </p>
+      <h3>Experience</h3>
+      <!--Experience 1-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm px-0">
+            <h4>Company</h4>
+          </div>
+          <div class="col-sm px-0">
+            <h4 class="text-end">Location</h4>
+          </div>
+          <ul class="mb-0 px-3">
+            <li class="px-0">This is what i do</li>
+            <li class="px-0">This is what i do</li>
+          </ul>
+        </div>
+      </div>
+      <!--Experience 2-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm px-0">
+            <h4>Company</h4>
+          </div>
+          <div class="col-sm px-0">
+            <h4 class="text-end">Location</h4>
+          </div>
+          <ul class="mb-0 px-3">
+            <li class="px-">This is what i do</li>
+            <li class="px-0">This is what i do</li>
+          </ul>
+        </div>
+      </div>
     </section>
+    <section>
+      <h3>Projects</h3>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Column 1: List 1 -->
+          <div class="col-sm">
+            <ul class="list-group">
+              <li class="list-group-item">C#</li>
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">Java</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">C++</li>
+            </ul>
+          </div>
+          <!-- Column 2: List 2 -->
+          <div class="col-sm">
+            <ul class="list-group">
+              <li class="list-group-item">.NET</li>
+              <li class="list-group-item">SQL</li>
+              <li class="list-group-item">Selenium</li>
+              <li class="list-group-item">Docker</li>
+              <li class="list-group-item">Git</li>
+            </ul>
+          </div>
+          <!-- Column 3: List 3 -->
+          <div class="col-sm">
+            <ul class="list-group">
+              <li class="list-group-item">React</li>
+              <li class="list-group-item">Vue</li>
+              <li class="list-group-item">HTML</li>
+              <li class="list-group-item">Node.js</li>
+              <li class="list-group-item">Postman</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Contact Information</h3>
+      <p>Email: brandon.nham@gmail.com</p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/brandon-nham">LinkedIn</a>
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/brandonnham target=">GitHub</a>
+      </p>
+    </section>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

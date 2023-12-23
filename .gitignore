@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables file
+.env
+
+# VSCode settings
+.vscode/
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: lock file
+package-lock.json
+
+# Optional: Yarn Integrity file
+.yarn-integrity
+
+# Optional: Jest coverage
+coverage/
+
+# Optional: TypeScript
+*.tsbuildinfo
+
+# Optional: Next.js build directory
+.next/
