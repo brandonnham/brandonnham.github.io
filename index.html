@@ -67,6 +67,12 @@
       div.text-center {
         text-align: center;
       }
+
+      .max-width-column {
+        max-width: 175px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
   </head>
 
@@ -134,35 +140,42 @@
       <div class="container">
         <div class="row">
           <!-- Column 1: List 1 -->
-          <div class="col-sm">
-            <ul class="list-group">
+          <div class="col-sm max-width-column">
+            <h4 class="text-center">Languages</h4>
+            <ul class="list-group text-center">
               <li class="list-group-item">C#</li>
               <li class="list-group-item">Python</li>
               <li class="list-group-item">Java</li>
               <li class="list-group-item">JavaScript</li>
-              <li class="list-group-item">C++</li>
+              <li class="list-group-item">SQL</li>
+              <li class="list-group-item">HTML</li>
             </ul>
           </div>
           <!-- Column 2: List 2 -->
           <div class="col-sm">
-            <ul class="list-group">
-              <li class="list-group-item">.NET</li>
-              <li class="list-group-item">SQL</li>
-              <li class="list-group-item">Selenium</li>
-              <li class="list-group-item">Docker</li>
-              <li class="list-group-item">Git</li>
-            </ul>
+            <div class="row">
+              <h4 class="text-center">Software and Technologies</h4>
+              <div class="col-sm max-width-column">
+                <ul class="list-group text-center">
+                  <li class="list-group-item">.NET</li>
+                  <li class="list-group-item">Azure Dev Ops</li>
+                  <li class="list-group-item">Selenium</li>
+                  <li class="list-group-item">Docker</li>
+                  <li class="list-group-item">Git</li>
+                  <li class="list-group-item">AWS</li>
+                </ul>
+              </div>
+              <div class="col-sm max-width-column">
+                <ul class="list-group text-center">
+                  <li class="list-group-item">React</li>
+                  <li class="list-group-item">Vue</li>
+                  <li class="list-group-item">Node.js</li>
+                  <li class="list-group-item">Postman</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <!-- Column 3: List 3 -->
-          <div class="col-sm">
-            <ul class="list-group">
-              <li class="list-group-item">React</li>
-              <li class="list-group-item">Vue</li>
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">Node.js</li>
-              <li class="list-group-item">Postman</li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>
